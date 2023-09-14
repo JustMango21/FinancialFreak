@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialFreak", "src\FinancialFreak\FinancialFreak.csproj", "{546F694D-208B-4C56-8323-87AF86A9E2C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "build\Build.csproj", "{2E5C9104-6197-44FC-ACA6-78FFD86BA286}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{546F694D-208B-4C56-8323-87AF86A9E2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546F694D-208B-4C56-8323-87AF86A9E2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546F694D-208B-4C56-8323-87AF86A9E2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546F694D-208B-4C56-8323-87AF86A9E2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5C9104-6197-44FC-ACA6-78FFD86BA286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5C9104-6197-44FC-ACA6-78FFD86BA286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5C9104-6197-44FC-ACA6-78FFD86BA286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5C9104-6197-44FC-ACA6-78FFD86BA286}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCB5ADB3-94B9-4D0A-91B2-6F986E6411F4}
+	EndGlobalSection
+EndGlobal
