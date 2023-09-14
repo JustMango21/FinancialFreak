@@ -13,15 +13,13 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '8.0.100-rc.1.23455.8'
+        include-prerelease: true
     - name: Install dependencies
       run: dotnet restore
     - name: Publish .NET Core Project
-      run: |
-        cd src/FinancialFreak
-        dotnet build --configuration Release --no-restore
-        dotnet publish -c Release -o ../dotnet-webapp -r linux-x64 --self-contained true /p:UseAppHost=true
+      run: dotnet publish src/FinancialFreak.csproj -c Release -o release --nologo
     - name: Commit wwwroot to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
