@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FinancialFreak",
   "resources": {
-    "hash": "sha256-aDEKSGwbO+9m+oEvk5U+bxpKqsGXIs7OjAoFJkBk4a8=",
+    "hash": "sha256-1FMsmgcylf2vBWeAP/7cKb4T/Wv4bDTzzGBc67sjLYo=",
     "jsModuleNative": {
       "dotnet.native.8.0.0-rc.1.23419.4.ebljfje3wy.js": "sha256-OB3SMFoT4gk9/wIBQcRjNXymkeCQlE2dnf0hv4iEznw="
     },
@@ -22,7 +22,7 @@
       "Azure.Security.KeyVault.Certificates.wasm": "sha256-iUzeaWCvmFN4gSxsyJqTDNV5M0jPcOlJEuYnkeXO+0M=",
       "Azure.Security.KeyVault.Keys.wasm": "sha256-b0radrAI6AUadb+tS6wY0KCnnG8Psw9I1N8RylNmfok=",
       "Azure.Security.KeyVault.Secrets.wasm": "sha256-93eP7W66FfqsppuqsHtaxLB6XV4PcI+Nkl4O2wMkYy0=",
-      "FinancialFreak.wasm": "sha256-bxOQ5vly72Cs0uwXfSfmbzvy5NqGnD8Z8zIOJsA23/c=",
+      "FinancialFreak.wasm": "sha256-YI4xaU1cmc+egTxjMOAIg2/iEra0lwnQ12gN1fd9XMo=",
       "Glob.wasm": "sha256-ntwglw8VKzvCa7xXhIsBbzTfvpaIEMC2ugPrRo+KObI=",
       "ICSharpCode.SharpZipLib.wasm": "sha256-PJcytbpQXcEhEwxJbrUc2pTcPkjVU9pA4XXHf+ehedM=",
       "JetBrains.Annotations.wasm": "sha256-zeL6kEulupLzJmF8DQurYaEkT28OZTNAY5CzDqUPBNw=",
