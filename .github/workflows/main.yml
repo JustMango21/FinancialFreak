@@ -12,7 +12,7 @@ jobs:
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '8.0.0-preview.7.23375.9'
+        dotnet-version: '8.0.100-rc.1.23455.8'
     - name: Publish .NET Core Project
       run: dotnet publish FinancialFreak.csproj -c Release -o release --nologo
     - name: Commit wwwroot to GitHub Pages
