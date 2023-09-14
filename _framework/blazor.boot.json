@@ -1,15 +1,15 @@
 {
   "mainAssemblyName": "FinancialFreak",
   "resources": {
-    "hash": "sha256-1FMsmgcylf2vBWeAP/7cKb4T/Wv4bDTzzGBc67sjLYo=",
+    "hash": "sha256-N+k6YEL+S/Me1p2toTy0YXrnjqYXnZJ05rsCNXC2KL8=",
     "jsModuleNative": {
-      "dotnet.native.8.0.0-rc.1.23419.4.ebljfje3wy.js": "sha256-OB3SMFoT4gk9/wIBQcRjNXymkeCQlE2dnf0hv4iEznw="
+      "dotnet.native.8.0.0-rc.1.23419.4.zf643qihe2.js": "sha256-+ELfU5TYYuykNkEn0QXwtOk16UEpFkPxuzZvIDgs78w="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.0-rc.1.23419.4.yts6ak6mxx.js": "sha256-/od8oFe2Ol3zKooXdN6CV0g7XWcpz0CjF5ts8IorAcs="
+      "dotnet.runtime.8.0.0-rc.1.23419.4.4bb211gofp.js": "sha256-/od8oFe2Ol3zKooXdN6CV0g7XWcpz0CjF5ts8IorAcs="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-ajtNRNKF8npOu5SUj7jpeIZBKms+7R/j2JVLLOeyz/c="
+      "dotnet.native.wasm": "sha256-mpr1yU0Pgu5IPNX6jGhoBPV6tDQwK5WLIEjfa7lCOpg="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -22,7 +22,7 @@
       "Azure.Security.KeyVault.Certificates.wasm": "sha256-iUzeaWCvmFN4gSxsyJqTDNV5M0jPcOlJEuYnkeXO+0M=",
       "Azure.Security.KeyVault.Keys.wasm": "sha256-b0radrAI6AUadb+tS6wY0KCnnG8Psw9I1N8RylNmfok=",
       "Azure.Security.KeyVault.Secrets.wasm": "sha256-93eP7W66FfqsppuqsHtaxLB6XV4PcI+Nkl4O2wMkYy0=",
-      "FinancialFreak.wasm": "sha256-YI4xaU1cmc+egTxjMOAIg2/iEra0lwnQ12gN1fd9XMo=",
+      "FinancialFreak.wasm": "sha256-WMYCgUQboX95LadN2BSYT+PusIEN6OdhR/OnHwE+/Ps=",
       "Glob.wasm": "sha256-ntwglw8VKzvCa7xXhIsBbzTfvpaIEMC2ugPrRo+KObI=",
       "ICSharpCode.SharpZipLib.wasm": "sha256-PJcytbpQXcEhEwxJbrUc2pTcPkjVU9pA4XXHf+ehedM=",
       "JetBrains.Annotations.wasm": "sha256-zeL6kEulupLzJmF8DQurYaEkT28OZTNAY5CzDqUPBNw=",
