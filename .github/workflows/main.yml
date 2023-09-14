@@ -14,10 +14,12 @@ jobs:
       with:
         dotnet-version: '8.0.100-rc.1.23455.8'
         include-prerelease: true
+    - name: Install .NET WASM Build Tools
+      run: dotnet workload install wasm-tools
     - name: Install dependencies
       run: dotnet restore
     - name: Publish .NET Core Project
-      run: dotnet publish src/FinancialFreak/FinancialFreak.csproj -c Release -o release --nologo
+      run: dotnet publish src/FinancialFreak/FinancialFreak.csproj -c Release -p:GHPages=true GHPagesBase=/ -o release --nologo
     - name: Change base-tag in index.html from / to FinancialFreak
       run: sed -i 's|<base href="/" />|<base href="/FinancialFreak/" />|g' release/wwwroot/index.html
     - name: copy index.html to 404.html
